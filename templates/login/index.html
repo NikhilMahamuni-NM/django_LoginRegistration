@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Login Demo</title>
+{% endblock title %}
+
+{% block body_block %}
+    
+    <div class="landing pt-5" style="background-image: url('{% static 'images/landing5.jpg' %}');">
+        <div class="container text-center py-5 title">
+            <h1 class="display-4">Welcome!!!</h1>
+            <br><hr>
+            <p class="lead pt-5">
+                <a href="{% url 'login:login' %}" class="btn btn-light">Sign In</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="{% url 'login:register' %}" class="btn btn-light">Sign Up </a>
+            </p>
+        </div>
+    </div>
+    
+{% endblock body_block %}

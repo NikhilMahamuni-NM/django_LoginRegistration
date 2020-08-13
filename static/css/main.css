@@ -1,0 +1,53 @@
+.landing { 
+    background-size: cover; 
+    background-position: center;
+    min-height: 91vh;
+}
+
+
+.landing h1 {
+    font-family: cursive;
+    font-size: 6rem;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+.lead a {
+    font-size: 22px;
+    width: 120px;
+}
+
+.lbox {
+    width: 25rem;
+    background-color: rgb(247, 247, 247);
+    margin: auto;
+}
+
+.rbox {
+    width: 30rem;
+    background-color: rgb(247, 247, 247);
+    margin: auto;
+}
+
+.back {
+    position: absolute;
+    background-color: rgb(53, 78, 119);
+    min-height: 91vh;
+    width: 100%;
+}
+
+.register input {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing h1 {
+        font-size: 4rem;
+        letter-spacing: 0;
+    }
+
+    .rbox {
+        width: 25rem;
+    }
+}

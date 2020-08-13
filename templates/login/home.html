@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Login Demo | Home</title>
+{% endblock title %}
+
+{% block body_block %}
+
+    <div class="landing pt-5" style="background-image: url('{% static 'images/landing2.jpg' %}');">
+        <div class="container pt-5 text-center text-info">
+            <br><br><br><br>
+            <h1>Logged In</h1>
+        </div>
+    </div>
+    
+{% endblock body_block %}
